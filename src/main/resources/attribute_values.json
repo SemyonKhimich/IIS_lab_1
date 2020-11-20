@@ -1,0 +1,18 @@
+{
+  "world cup stage at home": ["no", "yes"],
+  "asthmatics at home": ["no", "yes"],
+  "tour de ski at home": ["no", "yes"],
+  "country": ["russia", "norway", "switzerland", "finland"],
+  "discipline": ["distance", "sprint"],
+  "early career": ["2006-2010", "2011-2015", "2016-2020"],
+  "medals": ["no", "yes"],
+  "skier": [
+    "gleb retivykh", "denis spitsov",
+    "alexander bolshunov", "sergey ustiugov",
+    "johannes klebo", "paul golberg",
+    "havard taugbol", "sjur rothe",
+    "simen kruger", "dario cologna",
+    "iivo niskanen", "lauri vuorinen",
+    "ristomatti hakola"
+  ]
+}
