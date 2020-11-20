@@ -1,0 +1,133 @@
+[
+  {
+    "if": [
+      {"property": "world cup stage at home", "value": "no"}
+    ],
+    "then": {"property": "country", "value": "russia"}
+  },
+  {
+    "if": [
+      {"property": "world cup stage at home", "value": "yes"},
+      {"property": "asthmatics at home", "value": "yes"}
+    ],
+    "then": {"property": "country", "value": "norway"}
+  },
+  {
+    "if": [
+      {"property": "world cup stage at home", "value": "yes"},
+      {"property": "asthmatics at home", "value": "no"},
+      {"property": "tour de ski at home", "value": "yes"}
+    ],
+    "then": {"property": "country", "value": "switzerland"}
+  },
+  {
+    "if": [
+      {"property": "world cup stage at home", "value": "yes"},
+      {"property": "asthmatics at home", "value": "no"},
+      {"property": "tour de ski at home", "value": "no"}
+    ],
+    "then": {"property": "country", "value": "finland"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "russia"},
+      {"property": "discipline", "value": "sprint"},
+      {"property": "early career", "value": "2011-2015"}
+    ],
+    "then": {"property": "skier", "value": "gleb retivykh"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "russia"},
+      {"property": "discipline", "value": "sprint"},
+      {"property": "early career", "value": "2016-2020"}
+    ],
+    "then": {"property": "skier", "value": "denis spitsov"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "russia"},
+      {"property": "discipline", "value": "distance"},
+      {"property": "early career", "value": "2016-2020"}
+    ],
+    "then": {"property": "skier", "value": "alexander bolshunov"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "russia"},
+      {"property": "discipline", "value": "distance"},
+      {"property": "early career", "value": "2011-2015"}
+    ],
+    "then": {"property": "skier", "value": "sergey ustiugov"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "norway"},
+      {"property": "discipline", "value": "sprint"},
+      {"property": "early career", "value": "2016-2020"}
+    ],
+    "then": {"property": "skier", "value": "johannes klebo"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "norway"},
+      {"property": "discipline", "value": "sprint"},
+      {"property": "early career", "value": "2006-2010"}
+    ],
+    "then": {"property": "skier", "value": "paul golberg"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "norway"},
+      {"property": "discipline", "value": "sprint"},
+      {"property": "early career", "value": "2011-2015"}
+    ],
+    "then": {"property": "skier", "value": "havard taugbol"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "norway"},
+      {"property": "discipline", "value": "distance"},
+      {"property": "early career", "value": "2006-2010"}
+    ],
+    "then": {"property": "skier", "value": "sjur rothe"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "norway"},
+      {"property": "discipline", "value": "distance"},
+      {"property": "early career", "value": "2011-2015"}
+    ],
+    "then": {"property": "skier", "value": "simen kruger"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "switzerland"},
+      {"property": "discipline", "value": "distance"}
+    ],
+    "then": {"property": "skier", "value": "dario cologna"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "finland"},
+      {"property": "discipline", "value": "distance"}
+    ],
+    "then": {"property": "skier", "value": "iivo niskanen"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "finland"},
+      {"property": "discipline", "value": "sprint"},
+      {"property":  "medals", "value":  "no"}
+    ],
+    "then": {"property": "skier", "value": "lauri vuorinen"}
+  },
+  {
+    "if": [
+      {"property": "country", "value": "finland"},
+      {"property": "discipline", "value": "sprint"},
+      {"property":  "medals", "value":  "yes"}
+    ],
+    "then": {"property": "skier", "value": "ristomatti hakola"}
+  }
+]
